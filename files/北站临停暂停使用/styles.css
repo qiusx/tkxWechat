@@ -1,0 +1,42 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:421px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u3027_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:295px;
+  height:20px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u3027 {
+  position:absolute;
+  left:126px;
+  top:286px;
+  width:295px;
+  height:20px;
+}
+#u3028 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:295px;
+  white-space:nowrap;
+}

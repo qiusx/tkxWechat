@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>注册登录流程</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/注册登录流程/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/注册登录流程/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u159" class="ax_default box_3">
+        <div id="u159_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u160" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 注册登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u161" class="ax_default paragraph">
+        <div id="u161_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u162" class="text" style="visibility: visible;">
+          <p><span>目前登录后的页面为车牌列表</span></p><p><span><br></span></p><p><span>新的流程应进行相应调整</span></p><p><span><br></span></p><p><span>当用户未注册的时候，首次注册登录跳转至车牌添加页面；</span></p><p><span><br></span></p><p><span>根据车牌的状态进行内容的显示：</span></p><p><span><br></span></p><p><span>1、先查找临停订单表，查看用户是否有最新的未支付临停订单，推送相应的消息给到用户（考虑如果数据存储错误导致的推送错误潜在情况）</span></p><p><span>2、查找月卡车表，推送用户相关的月卡信息，包括车牌、停车场、到期日期；（若有储值车表可相应查找储值车表或其他类型车表的信息进行推送）</span></p><p><span>3、考虑同时存在的情况如何显示</span></p><p><span><br></span></p><p><span>当用户已注册的时候，重新登录的话，不需要到车辆添加页面，可以到个人中心页面？可以推送？</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u163" class="ax_default flow_shape">
+        <div id="u163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u164" class="text" style="visibility: visible;">
+          <p><span>用户首次关注</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u165" class="ax_default flow_shape">
+        <div id="u165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u166" class="text" style="visibility: visible;">
+          <p><span>提示注册登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u167" class="ax_default flow_shape">
+        <div id="u167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u168" class="text" style="visibility: visible;">
+          <p><span>登录页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u169" class="ax_default flow_shape">
+        <div id="u169_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u170" class="text" style="visibility: visible;">
+          <p><span>添加车牌</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u171" class="ax_default flow_shape">
+        <img id="u171_img" class="img " src="images/注册登录流程/u171.png"/>
+        <!-- Unnamed () -->
+        <div id="u172" class="text" style="visibility: visible;">
+          <p><span>月卡车？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u173" class="ax_default flow_shape">
+        <div id="u173_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u174" class="text" style="visibility: visible;">
+          <p><span>回到公众号对话框、月卡模版消息推送（车牌、停车场、到期日期）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u175" class="ax_default flow_shape">
+        <img id="u175_img" class="img " src="images/注册登录流程/u171.png"/>
+        <!-- Unnamed () -->
+        <div id="u176" class="text" style="visibility: visible;">
+          <p><span>临停订单？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u177" class="ax_default flow_shape">
+        <div id="u177_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u178" class="text" style="visibility: visible;">
+          <p><span>跳转临停订单页面（推送车辆临停在场消息模版）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u179" class="ax_default connector">
+        <img id="u179_seg0" class="img " src="images/注册登录流程/u179_seg0.png" alt="u179_seg0"/>
+        <img id="u179_seg1" class="img " src="images/注册登录流程/u179_seg1.png" alt="u179_seg1"/>
+        <img id="u179_seg2" class="img " src="images/注册登录流程/u179_seg2.png" alt="u179_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u180" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u181" class="ax_default connector">
+        <img id="u181_seg0" class="img " src="images/注册登录流程/u181_seg0.png" alt="u181_seg0"/>
+        <img id="u181_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u181_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u182" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u183" class="ax_default connector">
+        <img id="u183_seg0" class="img " src="images/注册登录流程/u183_seg0.png" alt="u183_seg0"/>
+        <img id="u183_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u183_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u184" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u185" class="ax_default connector">
+        <img id="u185_seg0" class="img " src="images/注册登录流程/u185_seg0.png" alt="u185_seg0"/>
+        <img id="u185_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u185_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u186" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u187" class="ax_default connector">
+        <img id="u187_seg0" class="img " src="images/注册登录流程/u183_seg0.png" alt="u187_seg0"/>
+        <img id="u187_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u187_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u188" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u189" class="ax_default connector">
+        <img id="u189_seg0" class="img " src="images/注册登录流程/u189_seg0.png" alt="u189_seg0"/>
+        <img id="u189_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u189_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u190" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u191" class="ax_default connector">
+        <img id="u191_seg0" class="img " src="images/注册登录流程/u191_seg0.png" alt="u191_seg0"/>
+        <img id="u191_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u191_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u192" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u193" class="ax_default connector">
+        <img id="u193_seg0" class="img " src="images/注册登录流程/u193_seg0.png" alt="u193_seg0"/>
+        <img id="u193_seg1" class="img " src="images/注册登录流程/u193_seg1.png" alt="u193_seg1"/>
+        <img id="u193_seg2" class="img " src="images/注册登录流程/u193_seg2.png" alt="u193_seg2"/>
+        <img id="u193_seg3" class="img " src="images/注册登录流程/u193_seg3.png" alt="u193_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u194" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u195" class="ax_default flow_shape">
+        <div id="u195_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u196" class="text" style="visibility: visible;">
+          <p><span>使用说明推送</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u197" class="ax_default connector">
+        <img id="u197_seg0" class="img " src="images/注册登录流程/u197_seg0.png" alt="u197_seg0"/>
+        <img id="u197_seg1" class="img " src="images/注册登录流程/u197_seg1.png" alt="u197_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u198" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u199" class="ax_default flow_shape">
+        <div id="u199_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u200" class="text" style="visibility: visible;">
+          <p><span>用户重新登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u201" class="ax_default flow_shape">
+        <div id="u201_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u202" class="text" style="visibility: visible;">
+          <p><span>点击菜单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u203" class="ax_default flow_shape">
+        <div id="u203_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u204" class="text" style="visibility: visible;">
+          <p><span>跳转登录页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u205" class="ax_default flow_shape">
+        <div id="u205_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u206" class="text" style="visibility: visible;">
+          <p><span>跳转至点击菜单的已登录页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u207" class="ax_default connector">
+        <img id="u207_seg0" class="img " src="images/注册登录流程/u207_seg0.png" alt="u207_seg0"/>
+        <img id="u207_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u207_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u208" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u209" class="ax_default connector">
+        <img id="u209_seg0" class="img " src="images/注册登录流程/u209_seg0.png" alt="u209_seg0"/>
+        <img id="u209_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u209_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u210" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u211" class="ax_default connector">
+        <img id="u211_seg0" class="img " src="images/注册登录流程/u211_seg0.png" alt="u211_seg0"/>
+        <img id="u211_seg1" class="img " src="images/注册登录流程/u181_seg1.png" alt="u211_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u212" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
